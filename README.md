@@ -4,7 +4,7 @@ Embedded Python visualization system featuring a custom time-to-coordinate mappi
 
 ---
 
-## ⚙️ Technical Overview & Objectives
+## Technical Overview & Objectives
 
 This project is an **Embedded Python** application developed for a Raspberry Pi (Linux environment) that performs real-time data visualization. The core technical achievement is the design and implementation of low-level graphics rendering and a custom algorithm to plot dynamic time-series data onto a small-format, low-resolution ST7789 display.
 
