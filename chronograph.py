@@ -140,16 +140,16 @@ def draw_axes_clock():
         
         draw.text((plot_left - marker_size - text_offset - text_width, y_pos - text_height/2), hour_label, font=label_font, fill=axis_color)
 
-    # Draw the arrowheads
-    arrow_size = 5
+    # REMOVED: Draw the arrowheads (Original code is commented out below)
+    # arrow_size = 5
     # Right arrow on X-axis (minutes)
-    draw.polygon([(plot_right, plot_bottom), 
-                  (plot_right - arrow_size, plot_bottom - arrow_size), 
-                  (plot_right - arrow_size, plot_bottom + arrow_size)], fill=axis_color)
+    # draw.polygon([(plot_right, plot_bottom), 
+    #              (plot_right - arrow_size, plot_bottom - arrow_size), 
+    #              (plot_right - arrow_size, plot_bottom + arrow_size)], fill=axis_color)
     # Top arrow on Y-axis (hours)
-    draw.polygon([(plot_left, plot_top), 
-                  (plot_left - arrow_size, plot_top + arrow_size), 
-                  (plot_left + arrow_size, plot_top + arrow_size)], fill=axis_color)
+    # draw.polygon([(plot_left, plot_top), 
+    #              (plot_left - arrow_size, plot_top + arrow_size), 
+    #              (plot_left + arrow_size, plot_top + arrow_size)], fill=axis_color)
 
     # Get the current time
     current_time = time.localtime()
