@@ -1,4 +1,4 @@
-# ChronoGraph: Embedded Linux Visualization System
+# ChronoGraph: Real-time Visualization System
 
 Embedded Python visualization system featuring a custom time-to-coordinate mapping algorithm for a constrained SPI display.
 
@@ -11,7 +11,7 @@ This project is an **Embedded Python** application developed for a Raspberry Pi 
 ### Key Features and Accomplishments
 
 * **Custom Cartesian Mapping Algorithm:** Developed and implemented a unique **linear interpolation algorithm** to translate the 12-hour clock state (Hours $\times$ Minutes) into precise, custom **Cartesian (X, Y) pixel coordinates** for real-time plotting.
-* **Low-Level Graphics Rendering:** Utilized the **Pillow (PIL) library** to manually generate all visual elements, including the custom axes, markers, labels, and polygons, demonstrating command over graphics primitives.
+* **Low-Level Graphics Rendering:** Utilized the **Pillow (PIL) library** to manually generate all visual elements, including the custom axes, labels, and polygons, demonstrating command over graphics primitives.
 * **High-Speed Hardware Interfacing:** Configured the **SPI bus at 64MHz** for rapid display updates and managed GPIO control for display power and input buttons, ensuring reliable performance in the embedded environment.
 * **Event-Driven Display Logic:** Implemented button logic to switch between the real-time graph screen and a static key/title screen.
 
