@@ -17,7 +17,7 @@ This project is an **Embedded Python** application developed for a Raspberry Pi 
 
 ---
 
-## 🛠️ System Requirements & Setup
+## System Requirements & Setup
 
 ### Hardware
 
